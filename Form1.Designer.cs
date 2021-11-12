@@ -42,6 +42,7 @@
             this.mEditarDesfazer = new System.Windows.Forms.ToolStripMenuItem();
             this.mEditarRefazer = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.recortarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mEditarCopiar = new System.Windows.Forms.ToolStripMenuItem();
             this.mEditarColar = new System.Windows.Forms.ToolStripMenuItem();
             this.mEditarExcluir = new System.Windows.Forms.ToolStripMenuItem();
@@ -100,52 +101,60 @@
             // mArquivoNovo
             // 
             this.mArquivoNovo.Name = "mArquivoNovo";
-            this.mArquivoNovo.Size = new System.Drawing.Size(183, 26);
+            this.mArquivoNovo.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
+            this.mArquivoNovo.Size = new System.Drawing.Size(284, 26);
             this.mArquivoNovo.Text = "Novo";
             this.mArquivoNovo.Click += new System.EventHandler(this.mArquivoNovo_Click);
             // 
             // mArquivoNovaJanela
             // 
             this.mArquivoNovaJanela.Name = "mArquivoNovaJanela";
-            this.mArquivoNovaJanela.Size = new System.Drawing.Size(183, 26);
+            this.mArquivoNovaJanela.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
+            | System.Windows.Forms.Keys.N)));
+            this.mArquivoNovaJanela.Size = new System.Drawing.Size(284, 26);
             this.mArquivoNovaJanela.Text = "Nova Janela";
             this.mArquivoNovaJanela.Click += new System.EventHandler(this.mArquivoNovaJanela_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(180, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(281, 6);
             // 
             // mArquivoAbrir
             // 
             this.mArquivoAbrir.Name = "mArquivoAbrir";
-            this.mArquivoAbrir.Size = new System.Drawing.Size(183, 26);
+            this.mArquivoAbrir.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
+            this.mArquivoAbrir.Size = new System.Drawing.Size(284, 26);
             this.mArquivoAbrir.Text = "Abrir";
             this.mArquivoAbrir.Click += new System.EventHandler(this.mArquivoAbrir_Click);
             // 
             // mArquivoSalvar
             // 
             this.mArquivoSalvar.Name = "mArquivoSalvar";
-            this.mArquivoSalvar.Size = new System.Drawing.Size(183, 26);
+            this.mArquivoSalvar.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
+            this.mArquivoSalvar.Size = new System.Drawing.Size(284, 26);
             this.mArquivoSalvar.Text = "Salvar";
             this.mArquivoSalvar.Click += new System.EventHandler(this.mArquivoSalvar_Click);
             // 
             // mArquivoSalvarComo
             // 
             this.mArquivoSalvarComo.Name = "mArquivoSalvarComo";
-            this.mArquivoSalvarComo.Size = new System.Drawing.Size(183, 26);
+            this.mArquivoSalvarComo.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
+            | System.Windows.Forms.Keys.S)));
+            this.mArquivoSalvarComo.Size = new System.Drawing.Size(284, 26);
             this.mArquivoSalvarComo.Text = "Salvar Como...";
             this.mArquivoSalvarComo.Click += new System.EventHandler(this.mArquivoSalvarComo_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(180, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(281, 6);
             // 
             // mArquivoSair
             // 
             this.mArquivoSair.Name = "mArquivoSair";
-            this.mArquivoSair.Size = new System.Drawing.Size(183, 26);
+            this.mArquivoSair.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F4)));
+            this.mArquivoSair.Size = new System.Drawing.Size(284, 26);
             this.mArquivoSair.Text = "Sair";
             this.mArquivoSair.Click += new System.EventHandler(this.mArquivoSair_Click);
             // 
@@ -155,6 +164,7 @@
             this.mEditarDesfazer,
             this.mEditarRefazer,
             this.toolStripSeparator3,
+            this.recortarToolStripMenuItem,
             this.mEditarCopiar,
             this.mEditarColar,
             this.mEditarExcluir,
@@ -167,48 +177,68 @@
             // mEditarDesfazer
             // 
             this.mEditarDesfazer.Name = "mEditarDesfazer";
-            this.mEditarDesfazer.Size = new System.Drawing.Size(166, 26);
+            this.mEditarDesfazer.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Z)));
+            this.mEditarDesfazer.Size = new System.Drawing.Size(200, 26);
             this.mEditarDesfazer.Text = "Desfazer";
+            this.mEditarDesfazer.Click += new System.EventHandler(this.mEditarDesfazer_Click);
             // 
             // mEditarRefazer
             // 
             this.mEditarRefazer.Name = "mEditarRefazer";
-            this.mEditarRefazer.Size = new System.Drawing.Size(166, 26);
+            this.mEditarRefazer.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Y)));
+            this.mEditarRefazer.Size = new System.Drawing.Size(200, 26);
             this.mEditarRefazer.Text = "Refazer";
+            this.mEditarRefazer.Click += new System.EventHandler(this.mEditarRefazer_Click);
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(163, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(197, 6);
+            // 
+            // recortarToolStripMenuItem
+            // 
+            this.recortarToolStripMenuItem.Name = "recortarToolStripMenuItem";
+            this.recortarToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
+            this.recortarToolStripMenuItem.Size = new System.Drawing.Size(200, 26);
+            this.recortarToolStripMenuItem.Text = "Recortar";
+            this.recortarToolStripMenuItem.Click += new System.EventHandler(this.recortarToolStripMenuItem_Click);
             // 
             // mEditarCopiar
             // 
             this.mEditarCopiar.Name = "mEditarCopiar";
-            this.mEditarCopiar.Size = new System.Drawing.Size(166, 26);
+            this.mEditarCopiar.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
+            this.mEditarCopiar.Size = new System.Drawing.Size(200, 26);
             this.mEditarCopiar.Text = "Copiar";
+            this.mEditarCopiar.Click += new System.EventHandler(this.mEditarCopiar_Click);
             // 
             // mEditarColar
             // 
             this.mEditarColar.Name = "mEditarColar";
-            this.mEditarColar.Size = new System.Drawing.Size(166, 26);
+            this.mEditarColar.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
+            this.mEditarColar.Size = new System.Drawing.Size(200, 26);
             this.mEditarColar.Text = "Colar";
+            this.mEditarColar.Click += new System.EventHandler(this.mEditarColar_Click);
             // 
             // mEditarExcluir
             // 
             this.mEditarExcluir.Name = "mEditarExcluir";
-            this.mEditarExcluir.Size = new System.Drawing.Size(166, 26);
+            this.mEditarExcluir.ShortcutKeys = System.Windows.Forms.Keys.Delete;
+            this.mEditarExcluir.Size = new System.Drawing.Size(200, 26);
             this.mEditarExcluir.Text = "Excluir";
+            this.mEditarExcluir.Click += new System.EventHandler(this.mEditarExcluir_Click);
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(163, 6);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(197, 6);
             // 
             // mEditarDataEHora
             // 
             this.mEditarDataEHora.Name = "mEditarDataEHora";
-            this.mEditarDataEHora.Size = new System.Drawing.Size(166, 26);
+            this.mEditarDataEHora.ShortcutKeys = System.Windows.Forms.Keys.F5;
+            this.mEditarDataEHora.Size = new System.Drawing.Size(200, 26);
             this.mEditarDataEHora.Text = "Data e Hora";
+            this.mEditarDataEHora.Click += new System.EventHandler(this.mEditarDataEHora_Click);
             // 
             // mFormatar
             // 
@@ -221,15 +251,18 @@
             // 
             // mFormatarQuebra
             // 
+            this.mFormatarQuebra.CheckOnClick = true;
             this.mFormatarQuebra.Name = "mFormatarQuebra";
             this.mFormatarQuebra.Size = new System.Drawing.Size(280, 26);
             this.mFormatarQuebra.Text = "Quebra automatica de linha";
+            this.mFormatarQuebra.Click += new System.EventHandler(this.mFormatarQuebra_Click);
             // 
             // mFormatarFonte
             // 
             this.mFormatarFonte.Name = "mFormatarFonte";
             this.mFormatarFonte.Size = new System.Drawing.Size(280, 26);
             this.mFormatarFonte.Text = "Fonte";
+            this.mFormatarFonte.Click += new System.EventHandler(this.mFormatarFonte_Click);
             // 
             // mExibir
             // 
@@ -253,20 +286,28 @@
             // mExibirZoomAmpliar
             // 
             this.mExibirZoomAmpliar.Name = "mExibirZoomAmpliar";
-            this.mExibirZoomAmpliar.Size = new System.Drawing.Size(149, 26);
+            this.mExibirZoomAmpliar.ShortcutKeyDisplayString = "Ctrl +";
+            this.mExibirZoomAmpliar.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Oemplus)));
+            this.mExibirZoomAmpliar.Size = new System.Drawing.Size(205, 26);
             this.mExibirZoomAmpliar.Text = "Ampliar";
+            this.mExibirZoomAmpliar.Click += new System.EventHandler(this.mExibirZoomAmpliar_Click);
             // 
             // mExibirZoomReduzir
             // 
             this.mExibirZoomReduzir.Name = "mExibirZoomReduzir";
-            this.mExibirZoomReduzir.Size = new System.Drawing.Size(149, 26);
+            this.mExibirZoomReduzir.ShortcutKeyDisplayString = "Ctrl -";
+            this.mExibirZoomReduzir.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.OemMinus)));
+            this.mExibirZoomReduzir.Size = new System.Drawing.Size(205, 26);
             this.mExibirZoomReduzir.Text = "Reduzir";
+            this.mExibirZoomReduzir.Click += new System.EventHandler(this.mExibirZoomReduzir_Click);
             // 
             // mExibirZoomRestaurar
             // 
             this.mExibirZoomRestaurar.Name = "mExibirZoomRestaurar";
-            this.mExibirZoomRestaurar.Size = new System.Drawing.Size(149, 26);
+            this.mExibirZoomRestaurar.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D0)));
+            this.mExibirZoomRestaurar.Size = new System.Drawing.Size(205, 26);
             this.mExibirZoomRestaurar.Text = "Restaurar";
+            this.mExibirZoomRestaurar.Click += new System.EventHandler(this.mExibirZoomRestaurar_Click);
             // 
             // mExibirBarraDeStatus
             // 
@@ -276,6 +317,7 @@
             this.mExibirBarraDeStatus.Name = "mExibirBarraDeStatus";
             this.mExibirBarraDeStatus.Size = new System.Drawing.Size(188, 26);
             this.mExibirBarraDeStatus.Text = "Barra de status";
+            this.mExibirBarraDeStatus.Click += new System.EventHandler(this.mExibirBarraDeStatus_Click);
             // 
             // mAjuda
             // 
@@ -289,14 +331,17 @@
             // mAjudaExibir
             // 
             this.mAjudaExibir.Name = "mAjudaExibir";
+            this.mAjudaExibir.ShortcutKeys = System.Windows.Forms.Keys.F1;
             this.mAjudaExibir.Size = new System.Drawing.Size(214, 26);
             this.mAjudaExibir.Text = "Exibir ajuda";
+            this.mAjudaExibir.Click += new System.EventHandler(this.mAjudaExibir_Click);
             // 
             // mAjudaSobre
             // 
             this.mAjudaSobre.Name = "mAjudaSobre";
             this.mAjudaSobre.Size = new System.Drawing.Size(214, 26);
             this.mAjudaSobre.Text = "Sobre o EditorTXT";
+            this.mAjudaSobre.Click += new System.EventHandler(this.mAjudaSobre_Click);
             // 
             // statusBar
             // 
@@ -322,6 +367,8 @@
             this.txtConteudo.Size = new System.Drawing.Size(784, 408);
             this.txtConteudo.TabIndex = 2;
             this.txtConteudo.Text = "";
+            this.txtConteudo.WordWrap = false;
+            this.txtConteudo.TextChanged += new System.EventHandler(this.txtConteudo_TextChanged);
             // 
             // Form1
             // 
@@ -336,7 +383,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "EditorTXT";
+            this.Text = "FelipeEditor";
             this.menuBar.ResumeLayout(false);
             this.menuBar.PerformLayout();
             this.statusBar.ResumeLayout(false);
@@ -381,6 +428,7 @@
         private ToolStripMenuItem mAjudaSobre;
         private StatusStrip statusBar;
         private ToolStripStatusLabel statusBarLabel;
+        private ToolStripMenuItem recortarToolStripMenuItem;
         private RichTextBox txtConteudo;
     }
 }

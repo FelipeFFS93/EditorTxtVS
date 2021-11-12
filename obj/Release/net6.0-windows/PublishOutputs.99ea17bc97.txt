@@ -1,0 +1,5 @@
+C:\Users\felip\Desktop\EditorTxtVS\bin\publish\EditorTXTVS.exe
+C:\Users\felip\Desktop\EditorTxtVS\bin\publish\EditorTXTVS.dll
+C:\Users\felip\Desktop\EditorTxtVS\bin\publish\EditorTXTVS.deps.json
+C:\Users\felip\Desktop\EditorTxtVS\bin\publish\EditorTXTVS.runtimeconfig.json
+C:\Users\felip\Desktop\EditorTxtVS\bin\publish\EditorTXTVS.pdb

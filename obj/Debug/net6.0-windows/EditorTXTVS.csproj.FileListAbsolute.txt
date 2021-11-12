@@ -34,3 +34,6 @@ C:\Users\felip\Desktop\EditorTXTVS\obj\Debug\net6.0-windows\EditorTXTVS.dll
 C:\Users\felip\Desktop\EditorTXTVS\obj\Debug\net6.0-windows\ref\EditorTXTVS.dll
 C:\Users\felip\Desktop\EditorTXTVS\obj\Debug\net6.0-windows\EditorTXTVS.pdb
 C:\Users\felip\Desktop\EditorTXTVS\obj\Debug\net6.0-windows\EditorTXTVS.genruntimeconfig.cache
+C:\Users\felip\Desktop\EditorTxtVS\obj\Debug\net6.0-windows\EditorTXTVS.FormAjuda.resources
+C:\Users\felip\Desktop\EditorTxtVS\obj\Debug\net6.0-windows\EditorTXTVS.FormSobre.resources
+C:\Users\felip\Desktop\EditorTxtVS\obj\Debug\net6.0-windows\EditorTXTVS.Properties.Resources.resources

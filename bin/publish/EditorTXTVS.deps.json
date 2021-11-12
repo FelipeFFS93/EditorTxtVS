@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "EditorTXTVS/1.0.0": {
+        "runtime": {
+          "EditorTXTVS.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EditorTXTVS/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
